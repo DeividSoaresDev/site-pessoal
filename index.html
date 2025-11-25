@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Minimalista</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="spotlight"></div>
+    
+    <nav class="nav">
+        <div class="nav-logo">DS</div>
+        <div class="nav-links">
+            <a href="#home" class="nav-link active">Início</a>
+            <a href="#about" class="nav-link">Sobre</a>
+            <a href="#gallery" class="nav-link">Galeria</a>
+            <a href="#contact" class="nav-link">Contato</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg" style="background-image: url(./insta3.jpg);"></div>
+        <div class="hero-content">
+            <h1 class="glitch" data-text="Deivid dev">Deivid Soares </h1>
+            <p class="hero-subtitle">Creative Developer & Visual Artist</p>
+            <div class="scroll-indicator">
+                <span>Scroll para explorar</span>
+                <div class="scroll-line"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2 class="section-title">Sobre Mim</h2>
+                    <p class="about-description">
+                       Desenvolvedor em formação, com foco em HTML, CSS e JavaScript. Conhecimento básico em PHP e back-end. Sou dedicado, autodidata, criativo e colaborativo — sempre buscando evoluir e entregar meu melhor em cada projeto.
+                    </p>
+                    <p class="about-description">
+                      Meu objetivo é continuar evoluindo como desenvolvedor, aprimorando minhas habilidades e construindo projetos cada vez mais completos. Cada novo desafio é uma chance de aprender algo novo — e é isso que me motiva a seguir em frente.
+                    </p>
+                    <div class="skills">
+                         <span class="skill-tag">HTML5</span>
+                             <span class="skill-tag">CSS3</span>
+                             <span class="skill-tag">JavaScript</span>
+                             <span class="skill-tag">PHP (Básico)</span>
+                             <span class="skill-tag">Lógica de Programação</span>
+                             <span class="skill-tag">Responsividade</span>
+                             <span class="skill-tag">UI/UX Design</span>
+                             <span class="skill-tag">Git & GitHub</span>
+                             <span class="skill-tag">Figma</span>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="./insta2.jpg" alt="Profile">
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title center">Galeria</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-parallax="0.5">
+                    <img src="./_MG_1837.jpg" alt="Teatro 1">
+                    <div class="gallery-overlay">
+                        <h3>Performance Artística</h3>
+                        <p>Teatro & Artes Cênicas</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-parallax="0.3">
+                    <img src="./_MG_1839.jpg" alt="Teatro 2">
+                    <div class="gallery-overlay">
+                        <h3>Expressão Visual</h3>
+                        <p>Fotografia de Performance</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-parallax="0.4">
+                    <img src="./insta.jpg" alt="Portrait">
+                    <div class="gallery-overlay">
+                        <h3>Minimalismo</h3>
+                        <p>Fotografia Conceitual</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-parallax="0.6">
+                    <img src="./_MG_1836.jpg" alt="Teatro 3">
+                    <div class="gallery-overlay">
+                        <h3>Momentos Únicos</h3>
+                        <p>Captura de Emoções</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-parallax="0.4">
+                    <img src="./foto_com_vo.jpg" alt="Portrait">
+                    <div class="gallery-overlay">
+                         <h3>familia</h3>
+                         <p>Fotografia Conceitual</p>
+                    </div>
+                </div>
+                     <div class="gallery-item" data-parallax="0.4">
+                    <img src="./arena.jpg" alt="Portrait">
+                    <div class="gallery-overlay">
+                         <h3>time do coração</h3>
+                         <p>Fotografia Conceitual</p>
+                    </div>
+                   </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title center">Vamos Conversar</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-label">Email</span>
+                        <a href="mailto:soaresdeivid585@gmail.com">soaresdeivid585@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-label">Telefone</span>
+                        <a href="tel:+5551984583730">+55 51 984583730</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-label">Social</span>
+                        <div class="social-links">
+                            <a href="https://www.instagram.com/deivid_soarespb/" class="social-link">Instagram</a>
+                            <a href="https://www.linkedin.com/in/deivid-soares-1a62292b0/" class="social-link">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
